@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MASassignment1</string>
+    <string name="title_activity_register">Register</string>
 </resources>
