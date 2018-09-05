@@ -102,9 +102,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String user = username.getText().toString();
-                linkurl = linkurl + user;
+                String newlink = linkurl + user;
                 try {
-                    sendAndRequestResponse(linkurl);
+                    sendAndRequestResponse(newlink);
                 } catch (JSONException ex) {
                     Log.i(TAG, "Error :" + ex.toString());
             }
